@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "createmaximized:maple_door",
+    "createmaximized:maple_trapdoor",
+    "createmaximized:maple_fence_gate"
+  ]
+}

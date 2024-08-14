@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createmaximized:polished_nether_quartz"
+    }
+  ],
+  "results": [
+    {
+      "item": "createmaximized:nether_quartz_sheet"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "createaddition:iron_rod"
+    },
+    "b": {
+      "item": "minecraft:redstone_torch"
+    },
+    "c": {
+      "item": "createdeco:industrial_iron_sheet"
+    }
+  },
+  "result": {
+    "item": "createmaximized:incomplete_iron_quartz_lamp",
+    "count": 1
+  }
+}

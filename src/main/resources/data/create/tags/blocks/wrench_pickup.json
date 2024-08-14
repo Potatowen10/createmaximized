@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "createmaximized:maple_pressure_plate",
+    "createmaximized:maple_button",
+    "createmaximized:rose_quartz_lamp",
+    "createmaximized:incomplete_quartz_lamp",
+    "createmaximized:nether_quartz_lamp",
+    "createmaximized:iron_nether_quartz_lamp",
+    "createmaximized:iron_rose_quartz_lamp",
+    "createmaximized:incomplete_iron_quartz_lamp"
+  ]
+}

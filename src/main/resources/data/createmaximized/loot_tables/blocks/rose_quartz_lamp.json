@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "createmaximized:blocks/rose_quartz_lamp",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createmaximized:rose_quartz_lamp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "createmaximized:item/gnqlampitem"
+  },
+  "render_type": "translucent"
+}

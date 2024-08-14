@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "createmaximized:maple_log"
+    }
+  },
+  "result": {
+    "item": "createmaximized:maple_wood",
+    "count": 3
+  }
+}

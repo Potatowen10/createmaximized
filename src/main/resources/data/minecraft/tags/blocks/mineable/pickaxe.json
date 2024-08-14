@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "createmaximized:small_nether_quartz_tiles",
+    "createmaximized:nether_quartz_tiles"
+  ]
+}

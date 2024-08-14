@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createmaximized:block/nether_quartz_tiles"
+    }
+  }
+}

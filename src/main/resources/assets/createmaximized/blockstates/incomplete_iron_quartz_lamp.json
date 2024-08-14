@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "createmaximized:block/incomplete_iron_quartz_lamp"
+    },
+    "facing=east": {
+      "model": "createmaximized:block/incomplete_iron_quartz_lamp",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "createmaximized:block/incomplete_iron_quartz_lamp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "createmaximized:block/incomplete_iron_quartz_lamp",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "createmaximized:block/incomplete_iron_quartz_lamp",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "createmaximized:block/incomplete_iron_quartz_lamp",
+      "x": 90
+    }
+  }
+}

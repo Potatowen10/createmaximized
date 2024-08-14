@@ -1,0 +1,9 @@
+{
+  "parent": "createmaximized:custom/quartz_lamp",
+  "textures": {
+    "all": "createmaximized:block/rose_quartz_lamp_gold",
+    "particle": "createmaximized:block/rose_quartz_lamp_gold",
+    "1": "createmaximized:block/rose_quartz_lamp_gold"
+  },
+  "render_type": "cutout"
+}

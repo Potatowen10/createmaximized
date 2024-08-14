@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "createmaximized:blocks/stripped_maple_wood",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createmaximized:stripped_maple_wood"
+        }
+      ]
+    }
+  ]
+}

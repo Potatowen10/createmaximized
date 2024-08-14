@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "createmaximized:incomplete_quartz_lamp"
+    },
+    {
+      "item": "createmaximized:polished_nether_quartz"
+    }
+  ],
+  "results": [
+    {
+      "item": "createmaximized:nether_quartz_lamp"
+    }
+  ]
+}

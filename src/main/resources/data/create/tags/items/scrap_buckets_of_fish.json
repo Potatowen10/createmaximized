@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "alexscaves:trilocaris_bucket",
+    "alexscaves:radgill_bucket",
+    "alexscaves:lanternfish_bucket",
+    "alexscaves:tripodfish_bucket",
+    "alexscaves:sea_pig_bucket",
+    "alexscaves_gossamer_worm_bucket",
+    "quark:crab_bucket"
+  ]
+}

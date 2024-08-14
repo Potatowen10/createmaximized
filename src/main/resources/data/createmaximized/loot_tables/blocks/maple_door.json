@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "createmaximized:blocks/maple_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createmaximized:maple_door",
+          "conditions": [
+            {
+              "block": "createmaximized:maple_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "createmaximized:block/small_nether_quartz_tiles"
+  }
+}

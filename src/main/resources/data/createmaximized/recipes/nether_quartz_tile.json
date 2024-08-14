@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "createmaximized:polished_nether_quartz"
+  },
+  "result": "createmaximized:nether_quartz_tiles"
+}

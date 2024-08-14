@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "createmaximized:polished_nether_quartz"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "results": [
+    {
+      "item": "createmaximized:creator_armor_trim_smithing_template"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "createmaximized:maple_log",
+    "createmaximized:stripped_maple_log",
+    "createmaximized:maple_wood",
+    "createmaximized:stripped_maple_wood"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "createmaximized:maple_button",
+    "createmaximized:maple_pressure_plate",
+    "createmaximized:maple_slab",
+    "createmaximized:maple_stairs",
+    "createmaximized:maple_fence"
+  ]
+}

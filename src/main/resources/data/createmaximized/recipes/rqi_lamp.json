@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "createmaximized:incomplete_iron_quartz_lamp"
+    },
+    {
+      "item": "create:polished_rose_quartz"
+    }
+  ],
+  "results": [
+    {
+      "item": "createmaximized:iron_rose_quartz_lamp"
+    }
+  ]
+}

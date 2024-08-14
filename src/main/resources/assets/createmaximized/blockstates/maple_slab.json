@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "createmaximized:block/maple_slab"
+    },
+    "type=top": {
+      "model": "createmaximized:block/maple_slab_top"
+    },
+    "type=double": {
+      "model": "createmaximized:block/maple_slab_full"
+    }
+  }
+}

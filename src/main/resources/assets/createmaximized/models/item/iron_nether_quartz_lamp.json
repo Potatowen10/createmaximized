@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "createmaximized:item/inqlampitem"
+  },
+  "render_type": "translucent"
+}

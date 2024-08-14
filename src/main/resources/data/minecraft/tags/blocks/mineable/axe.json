@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "createmaximized:maple_sapling",
+    "createmaximized:maple_trapdoor",
+    "createmaximized:maple_pressure_plate",
+    "createmaximized:maple_fence_gate",
+    "createmaximized:maple_fence",
+    "createmaximized:maple_stairs",
+    "createmaximized:maple_slab",
+    "createmaximized:stripped_maple_wood",
+    "createmaximized:maple_wood",
+    "createmaximized:stripped_maple_log",
+    "createmaximized:maple_log",
+    "createmaximized:maple_planks",
+    "createmaximized:maple_door",
+    "createmaximized:maple_button"
+  ]
+}

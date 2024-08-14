@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "createmaximized:maple_logs"
+    }
+  ],
+  "result": {
+    "item": "createmaximized:maple_planks",
+    "count": 4
+  }
+}
