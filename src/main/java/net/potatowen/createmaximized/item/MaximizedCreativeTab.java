@@ -37,7 +37,14 @@ public class MaximizedCreativeTab {
                         output.accept(ModBlocks.MAPLE_STAIRS.get());
                         output.accept(ModBlocks.MAPLE_SLAB.get());
                         output.accept(ModBlocks.MAPLE_FENCE.get());
+                        output.accept(ModBlocks.MAPLE_FENCE_GATE.get());
+                        output.accept(ModBlocks.MAPLE_DOOR.get());
+                        output.accept(ModBlocks.MAPLE_TRAPDOOR.get());
+                        output.accept(ModBlocks.MAPLE_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.MAPLE_BUTTON.get());
                         output.accept(ModBlocks.MAPLE_LEAVES.get());
+                        output.accept(ModItems.MAPLE_SIGN.get());
+                        output.accept(ModItems.MAPLE_HANGING_SIGN.get());
                     })
                     .build());
 

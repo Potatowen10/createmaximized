@@ -2,6 +2,8 @@
   "item.createmaximized.brass_coin": "Brass Coin",
   "item.createmaximized.polished_nether_quartz": "Polished Nether Quartz",
   "item.createmaximized.nether_quartz_sheet": "Nether Quartz Sheet",
+  "item.createmaximized.maple_sign": "Maple Sign",
+  "item.createmaximized.maple_hanging_sign": "Maple Hanging Sign",
 
   "block.createmaximized.nether_quartz_tiles": "Nether Quartz Tiles",
   "block.createmaximized.small_nether_quartz_tiles": "Small Nether Quartz Tiles",
@@ -20,6 +22,13 @@
   "block.createmaximized.maple_stairs": "Maple Stairs",
   "block.createmaximized.maple_slab": "Maple Slab",
   "block.createmaximized.maple_fence": "Maple Fence",
+  "block.createmaximized.maple_fence_gate": "Maple Fence Gate",
+  "block.createmaximized.maple_door": "Maple Door",
+  "block.createmaximized.maple_trapdoor": "Maple Trapdoor",
+  "block.createmaximized.maple_button": "Maple Button",
+  "block.createmaximized.maple_pressure_plate": "Maple Pressure Plate",
+  "block.createmaximized.maple_sign": "Maple Sign",
+  "block.createmaximized.maple_hanging_sign": "Maple Hanging Sign",
 
   "creativetab.maximizedtab": "Create: Maximized"
 }

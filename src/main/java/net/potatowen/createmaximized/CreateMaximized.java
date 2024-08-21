@@ -1,6 +1,7 @@
 package net.potatowen.createmaximized;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.Sheets;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -13,8 +14,10 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.potatowen.createmaximized.block.ModBlocks;
+import net.potatowen.createmaximized.block.entity.ModBlockEntities;
 import net.potatowen.createmaximized.item.MaximizedCreativeTab;
 import net.potatowen.createmaximized.item.ModItems;
+import net.potatowen.createmaximized.util.WoodTypes;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -33,6 +36,7 @@ public class CreateMaximized
         ModItems.register(modEventBus);
 
         ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
 
         MaximizedCreativeTab.register(modEventBus);
 
@@ -65,6 +69,7 @@ public class CreateMaximized
     {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            Sheets.addWoodType(WoodTypes.MAPLE);
         }
     }
 }
