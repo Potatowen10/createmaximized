@@ -17,7 +17,7 @@ import net.potatowen.createmaximized.block.ModBlocks;
 import net.potatowen.createmaximized.block.entity.ModBlockEntities;
 import net.potatowen.createmaximized.item.MaximizedCreativeTab;
 import net.potatowen.createmaximized.item.ModItems;
-import net.potatowen.createmaximized.util.WoodTypes;
+import net.potatowen.createmaximized.util.MapleWoodType;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -69,7 +69,7 @@ public class CreateMaximized
     {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            Sheets.addWoodType(WoodTypes.MAPLE);
+            Sheets.addWoodType(MapleWoodType.MAPLE);
         }
     }
 }

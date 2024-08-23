@@ -2,8 +2,6 @@ package net.potatowen.createmaximized.block;
 
 import net.minecraft.client.renderer.BiomeColors;
 import net.minecraft.core.BlockPos;
-import net.minecraft.client.color.block.BlockColors;
-import net.minecraft.client.color.item.ItemColors;
 import net.minecraft.core.Direction;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.BlockItem;
@@ -15,10 +13,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
-import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraft.client.renderer.BiomeColors;
-import net.minecraft.world.level.FoliageColor;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -30,8 +25,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.potatowen.createmaximized.CreateMaximized;
 import net.potatowen.createmaximized.block.custom.*;
 import net.potatowen.createmaximized.item.ModItems;
-import net.potatowen.createmaximized.util.WoodTypes;
-import org.stringtemplate.v4.ST;
+import net.potatowen.createmaximized.util.MapleWoodType;
 
 import java.util.function.Supplier;
 
@@ -262,13 +256,13 @@ public class ModBlocks {
     );
 
     public static final RegistryObject<Block> MAPLE_SIGN = BLOCKS.register("maple_sign",
-            () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), WoodTypes.MAPLE));
+            () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), MapleWoodType.MAPLE));
     public static final RegistryObject<Block> MAPLE_WALL_SIGN = BLOCKS.register("maple_wall_sign",
-            () -> new ModWallSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN), WoodTypes.MAPLE));
+            () -> new ModWallSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN), MapleWoodType.MAPLE));
     public static final RegistryObject<Block> MAPLE_HANGING_SIGN = BLOCKS.register("maple_hanging_sign",
-            () -> new ModHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), WoodTypes.MAPLE));
+            () -> new ModHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), MapleWoodType.MAPLE));
     public static final RegistryObject<Block> MAPLE_WALL_HANGING_SIGN = BLOCKS.register("maple_wall_hanging_sign",
-            () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), WoodTypes.MAPLE));
+            () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), MapleWoodType.MAPLE));
 
     @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class BlocksClientSideHandler {
