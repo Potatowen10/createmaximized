@@ -1,6 +1,7 @@
-{   "parent": "cube/all",
+{  "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "createmaximized:block/maple_leaves"
+    "all": "createmaximized:block/maple_leaves",
+    "particle": "createmaximized:block/maple_leaves"
   },
   "elements": [
     {   "from": [ 0, 0, 0 ],

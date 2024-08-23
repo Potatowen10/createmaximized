@@ -6,6 +6,7 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.HangingSignBlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.WoodType;
+import net.potatowen.createmaximized.block.entity.ModHangingSignBlockEntity;
 
 public class ModWallHangingSignBlock extends WallHangingSignBlock {
     public ModWallHangingSignBlock(Properties pProperties, WoodType pType) {
@@ -14,6 +15,6 @@ public class ModWallHangingSignBlock extends WallHangingSignBlock {
 
     @Override
     public BlockEntity newBlockEntity(BlockPos pPos, BlockState pState) {
-        return new HangingSignBlockEntity(pPos, pState);
+        return new ModHangingSignBlockEntity(pPos, pState);
     }
 }

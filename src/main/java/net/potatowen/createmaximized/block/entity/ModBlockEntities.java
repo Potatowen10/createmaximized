@@ -17,9 +17,10 @@ public class ModBlockEntities {
             BLOCK_ENTITIES.register("mod_sign", () ->
                     BlockEntityType.Builder.of(ModSignBlockEntity::new,
                             ModBlocks.MAPLE_SIGN.get(), ModBlocks.MAPLE_WALL_SIGN.get()).build(null));
-    public static final RegistryObject<BlockEntityType<ModSignBlockEntity>> MOD_HANGING_SIGN =
+
+    public static final RegistryObject<BlockEntityType<ModHangingSignBlockEntity>> MOD_HANGING_SIGN =
             BLOCK_ENTITIES.register("mod_hanging_sign", () ->
-                    BlockEntityType.Builder.of(ModSignBlockEntity::new,
+                    BlockEntityType.Builder.of(ModHangingSignBlockEntity::new,
                             ModBlocks.MAPLE_HANGING_SIGN.get(), ModBlocks.MAPLE_WALL_HANGING_SIGN.get()).build(null));
 
     public static void register(IEventBus eventBus) {
