@@ -21,6 +21,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NETHER_QUARTZ_SHEET = ITEMS.register("nether_quartz_sheet",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MAPLE_SAPLING_ITEM = ITEMS.register("maple_sapling_item",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> MAPLE_SIGN = ITEMS.register("maple_sign",
             () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.MAPLE_SIGN.get(), ModBlocks.MAPLE_WALL_SIGN.get()));

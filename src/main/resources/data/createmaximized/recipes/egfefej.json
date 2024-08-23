@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "pattern": [
+    " c "
+  ],
+  "key": {
+    "c": {
+      "item": "createmaximized"
+    }
+  },
+  "result": {
+    "item": "createmaximized:incomplete_iron_quartz_lamp",
+    "count": 1
+  }
+}
