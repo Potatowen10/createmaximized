@@ -1,9 +1,8 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "createmaximized:blocks/maple_sapling",
   "pools": [
     {
-      "rolls": 1.0,
+      "bonus_rolls": 0.0,
       "conditions": [
         {
           "condition": "minecraft:survives_explosion"
@@ -12,9 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "createmaximized:maple_sapling_item"
+          "name": "createmaximized:maple_sapling"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "createmaximized:maple_sapling"
 }

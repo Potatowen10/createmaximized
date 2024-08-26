@@ -2,6 +2,7 @@ package net.potatowen.createmaximized;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.Sheets;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -15,6 +16,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.potatowen.createmaximized.block.ModBlocks;
 import net.potatowen.createmaximized.block.entity.ModBlockEntities;
+import net.potatowen.createmaximized.entity.ModEntities;
+import net.potatowen.createmaximized.entity.client.ModBoatRenderer;
 import net.potatowen.createmaximized.item.MaximizedCreativeTab;
 import net.potatowen.createmaximized.item.ModItems;
 import net.potatowen.createmaximized.util.MapleWoodType;
@@ -39,6 +42,7 @@ public class CreateMaximized
         ModBlockEntities.register(modEventBus);
 
         MaximizedCreativeTab.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -70,6 +74,9 @@ public class CreateMaximized
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             Sheets.addWoodType(MapleWoodType.MAPLE);
+
+            EntityRenderers.register(ModEntities.MOD_BOAT.get(), pContext -> new ModBoatRenderer(pContext, false));
+            EntityRenderers.register(ModEntities.MOD_CHEST_BOAT.get(), pContext -> new ModBoatRenderer(pContext, true));
         }
     }
 }

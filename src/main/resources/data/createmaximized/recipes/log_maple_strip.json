@@ -2,13 +2,13 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "minecraft:acacia_log"
+      "item": "createmaximized:maple_log"
     }
   ],
   "processingTime": 50,
   "results": [
     {
-      "item": "minecraft:stripped_acacia_log"
+      "item": "createmaximized:stripped_maple_log"
     }
   ]
 }

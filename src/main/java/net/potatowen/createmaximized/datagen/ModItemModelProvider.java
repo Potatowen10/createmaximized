@@ -19,6 +19,8 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.MAPLE_SIGN);
         simpleItem(ModItems.MAPLE_HANGING_SIGN);
+        simpleItem(ModItems.MAPLE_BOAT);
+        simpleItem(ModItems.MAPLE_CHEST_BOAT);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

@@ -27,6 +27,7 @@ import net.potatowen.createmaximized.CreateMaximized;
 import net.potatowen.createmaximized.block.custom.*;
 import net.potatowen.createmaximized.item.ModItems;
 import net.potatowen.createmaximized.util.MapleWoodType;
+import net.potatowen.createmaximized.worldgen.tree.MapleTreeGrower;
 
 import java.util.function.Supplier;
 
@@ -255,6 +256,8 @@ public class ModBlocks {
                 }
             }
     );
+    public static final RegistryObject<Block> MAPLE_SAPLING = registerblock("maple_sapling",
+            () -> new SaplingBlock(new MapleTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     public static final RegistryObject<Block> MAPLE_SIGN = BLOCKS.register("maple_sign",
             () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), MapleWoodType.MAPLE));
@@ -264,6 +267,8 @@ public class ModBlocks {
             () -> new ModHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), MapleWoodType.MAPLE));
     public static final RegistryObject<Block> MAPLE_WALL_HANGING_SIGN = BLOCKS.register("maple_wall_hanging_sign",
             () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), MapleWoodType.MAPLE));
+
+
 
     @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class BlocksClientSideHandler {

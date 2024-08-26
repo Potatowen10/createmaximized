@@ -45,6 +45,9 @@ public class MaximizedCreativeTab {
                         output.accept(ModBlocks.MAPLE_LEAVES.get());
                         output.accept(ModItems.MAPLE_SIGN.get());
                         output.accept(ModItems.MAPLE_HANGING_SIGN.get());
+                        output.accept(ModItems.MAPLE_BOAT.get());
+                        output.accept(ModItems.MAPLE_CHEST_BOAT.get());
+                        output.accept(ModBlocks.MAPLE_SAPLING.get());
                     })
                     .build());
 
